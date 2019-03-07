@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/priroda"
+    tools:context=".LogIn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="220dp"
+        android:layout_gravity="center">
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="mail"
+        android:textColorHint="#fff"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/loginemail"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:textColorHint="#fff"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginpassword"
+        android:inputType="textPassword"
+        android:layout_marginBottom="20dp"
+        android:hint="sifra"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:id="@+id/login"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/dugme"
+        android:text="Uloguj se"
+        android:textColor="#fff"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:id="@+id/log_in_progress"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nemas nalog? Registruj se ovde"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:id="@+id/log_in_signin"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/priroda"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".Meni">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="50dp"
+        android:alpha="0.5"
+
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="75dp"
+        android:background="#FFDAB9"
+        android:id="@+id/video"
+        android:visibility="invisible"
+        android:layout_marginBottom="10dp"
+        android:layout_height="75dp"
+        android:text="dodaj lekciju" />
+
+    <Button
+        android:background="#FFDAB9"
+        android:visibility="invisible"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/test"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="Test" />
+
+    <Button
+        android:background="#FFDAB9"
+        android:visibility="invisible"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/pogledajvideo"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="Pogledaj video" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+    <Button
+        android:background="#FFDAB9"
+        android:visibility="invisible"
+        android:layout_marginTop="10dp"
+        android:id="@+id/obrisivideo"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="Obrisi video" />
+    <Button
+        android:background="#FFDAB9"
+        android:visibility="invisible"
+        android:layout_marginTop="10dp"
+        android:id="@+id/azurirajvideo"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="Azuriraj video" />
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="75dp"
+        android:id="@+id/igrica"
+        android:visibility="invisible"
+        android:text="igrica"
+        android:background="#FFDAB9"
+        />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+    <Button
+        android:background="#FFDAB9"
+        android:layout_marginTop="10dp"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:visibility="invisible"
+        android:text="dodaj test"
+        android:id="@+id/dodajtest"/>
+    <Button
+        android:background="#FFDAB9"
+        android:layout_marginTop="10dp"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="Obrisi test"
+        android:visibility="invisible"
+        android:id="@+id/listapitanja"/>
+        <Button
+            android:background="#FFDAB9"
+            android:layout_marginTop="10dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:text="Profil"
+            android:visibility="invisible"
+            android:id="@+id/profilkorisnika"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:background="#FFDAB9"
+                android:layout_marginTop="10dp"
+                android:layout_width="75dp"
+                android:visibility="invisible"
+                android:layout_height="75dp"
+                android:text="dodaj korisnika"
+                android:id="@+id/dodajkorisnika"/>
+            <Button
+                android:background="#FFDAB9"
+                android:layout_marginTop="10dp"
+                android:layout_width="75dp"
+                android:visibility="invisible"
+                android:layout_height="75dp"
+                android:text="Obrisi korisnika"
+                android:id="@+id/obrisikorisnika"/>
+            <Button
+                android:background="#FFDAB9"
+                android:layout_marginTop="10dp"
+                android:layout_width="75dp"
+                android:visibility="invisible"
+                android:layout_height="75dp"
+                android:text="arhivirani nalozi"
+                android:id="@+id/arhiviraninalozi"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

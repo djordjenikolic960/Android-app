@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/priroda"
+    tools:context=".SignIn">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="email"
+        android:textColorHint="#fff"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/email"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:textColorHint="#fff"
+        android:inputType="textPassword"
+        android:layout_marginBottom="20dp"
+        android:hint="sifra"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:id="@+id/signin"
+        android:background="@drawable/dugme"
+        android:layout_marginBottom="30dp"
+        android:text="Dalje"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:text="vec imam nalog?"/>
+    </LinearLayout>
+</LinearLayout>

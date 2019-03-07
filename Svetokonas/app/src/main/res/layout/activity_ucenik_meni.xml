@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zelena"
+    tools:context=".ucenik_meni">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/ucenik_test"
+            android:text="test"
+            android:alpha="0.5"
+            android:background="@drawable/dugme_zeleno"/>
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="200dp"
+            android:background="@drawable/dugme_zuto"
+            android:layout_marginTop="100dp"
+            android:alpha="0.5"
+            android:text="video"
+            android:textSize="20dp"
+            android:id="@+id/ucenik_video" />
+        <Button
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/dugme_narandzasto"
+            android:layout_marginTop="220dp"
+            android:text="igra"
+            android:alpha="0.5"
+            android:textSize="20dp"
+            android:id="@+id/ucenik_igrica" />
+
+        <Button
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_marginLeft="175dp"
+            android:background="@drawable/dugme"
+            android:layout_marginTop="350dp"
+            android:text="profil"
+            android:alpha="0.5"
+            android:textSize="20dp"
+            android:id="@+id/ucenik_profil" />
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

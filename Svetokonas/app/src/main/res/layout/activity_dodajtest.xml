@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/zelena"
+    tools:context=".dodajtest">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pitanje:"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/dodaj_test_br_pitanja"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ime testa"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/dodaj_ime_testa"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="unesite tekst pitanja"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/dodaj_test_tekst_pitanja"
+        />
+
+    <EditText
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="unesite tacan odgovor"
+        android:id="@+id/dodaj_test_tacan_odgovor"
+        />
+    <EditText
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="unesite netacan odgovor1"
+        android:id="@+id/dodaj_test_odgovor1"
+        />
+    <EditText
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="unesite netacan odgovor2"
+        android:id="@+id/dodaj_test_odgovor2"
+        />
+    <EditText
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="unesite netacan odgovor3"
+        android:id="@+id/dodaj_test_odgovor3"
+        />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nazad"
+        android:alpha="0.5"
+        android:textColor="#fff"
+        android:background="@drawable/dugme_crno"
+        android:id="@+id/dodaj_test_nazad"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dalje"
+        android:textColor="#fff"
+        android:alpha="0.5"
+        android:background="@drawable/dugme_crno"
+        android:id="@+id/dodaj_test_dalje"
+        android:layout_marginLeft="30dp"
+
+        />
+</LinearLayout>
+
+
+</LinearLayout>

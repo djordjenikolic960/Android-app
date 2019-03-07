@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/priroda"
+    android:orientation="vertical"
+    tools:context=".dodaj_korisnika">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:background="#C0C0C0"
+        android:alpha="0.5"
+        android:id="@+id/dodajkorisnika_forma"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="300dp"
+            android:textColorHint="#000"
+            android:autofillHints="20dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Ime"
+            android:id="@+id/dodajkorisnika_ime"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColorHint="#000"
+            android:autofillHints="20dp"
+            android:hint="Prezime"
+            android:id="@+id/dodajkorisnika_prezime"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:textColorHint="#000"
+            android:autofillHints="20dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Razred"
+            android:id="@+id/dodajkorisnika_razred"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:textColorHint="#000"
+            android:autofillHints="20dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="mail"
+            android:id="@+id/dodajkorisnika_mail"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="sifra"
+            android:textColorHint="#000"
+            android:autofillHints="20dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/dodajkorisnika_sifra"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        android:id="@+id/dodajkorisnika_dugmici"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dugme"
+            android:text="nazad"
+            android:id="@+id/dodajkorisnika_nazad"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dugme"
+            android:text="dodaj nalog"
+            android:id="@+id/dodajkorisnika_sacuvaj"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

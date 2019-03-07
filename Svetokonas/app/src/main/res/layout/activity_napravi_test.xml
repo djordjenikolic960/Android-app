@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/zelena"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical"
+    tools:context=".NapraviTest">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Score: 0"
+
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="00:30"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/br_pitanja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pitanje:1/x"
+            android:layout_marginTop="25dp"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <TextView
+
+        android:id="@+id/pitanje"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:padding="8dp"
+        android:layout_marginBottom="20dp"
+        android:text="Koja reka protice kroz Nis?"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+
+   <Button
+       android:id="@+id/odgovor1"
+       android:layout_marginBottom="20dp"
+       android:layout_width="match_parent"
+       android:background="@drawable/dugme_crno"
+       android:alpha="0.5"
+       android:layout_height="wrap_content"
+       android:textColor="#fff"
+       android:text="odgovor1"
+       android:textSize="20sp"
+       />
+    <Button
+        android:layout_marginBottom="20dp"
+        android:id="@+id/odgovor2"
+        android:layout_width="match_parent"
+        android:background="@drawable/dugme_crno"
+        android:textColor="#fff"
+        android:alpha="0.5"
+        android:layout_height="wrap_content"
+        android:text="odgovor1"
+        android:textSize="20sp"
+
+        />
+    <Button
+        android:layout_marginBottom="20dp"
+        android:id="@+id/odgovor3"
+
+        android:layout_width="match_parent"
+        android:background="@drawable/dugme_crno"
+        android:layout_height="wrap_content"
+        android:alpha="0.5"
+        android:textColor="#fff"
+        android:text="odgovor1"
+        android:textSize="20sp"
+
+        />
+    <Button
+        android:id="@+id/odgovor4"
+        android:layout_width="match_parent"
+        android:background="@drawable/dugme_crno"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:alpha="0.5"
+        android:text="odgovor1"
+        android:textSize="20sp"
+        />
+</LinearLayout>

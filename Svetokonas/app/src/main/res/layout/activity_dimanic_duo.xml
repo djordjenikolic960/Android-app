@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".dimanic_duo">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dinamicduologocrop"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:visibility="invisible"
+        android:id="@+id/dinamic_duo_logo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dinamic_duo_tekst"
+        android:layout_gravity="center_horizontal"
+        android:text="DINAMIC DUO"
+        android:textSize="30dp"
+        android:textColor="#36b5df"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+</LinearLayout>

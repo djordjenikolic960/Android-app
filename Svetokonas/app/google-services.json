@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "858352769748",
+    "firebase_url": "https://svetokonas-eaf10.firebaseio.com",
+    "project_id": "svetokonas-eaf10",
+    "storage_bucket": "svetokonas-eaf10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858352769748:android:51e29a554a7a406a",
+        "android_client_info": {
+          "package_name": "com.example.suzana.svetokonas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858352769748-g1b4mociaapk5v0p7sgknvtp7l0qgi9l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.suzana.svetokonas",
+            "certificate_hash": "3909c28233324cfad350e6d4fba3ef7ddfae1c90"
+          }
+        },
+        {
+          "client_id": "858352769748-i4h9p8bg4js5qfmfojku4uj5iit1t0lr.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "858352769748-i4h9p8bg4js5qfmfojku4uj5iit1t0lr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuQQKN5orRVs0FFppdFT8YDpqKE66ImjA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "858352769748-i4h9p8bg4js5qfmfojku4uj5iit1t0lr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

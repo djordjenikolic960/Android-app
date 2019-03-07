@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zelena"
+    android:orientation="vertical"
+    tools:context=".lista_testova">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/lista_testova_linear"
+        android:orientation="vertical">
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nazad"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/dugme"
+        android:id="@+id/lista_testova_nazad"
+        android:textColor="#fff"
+        android:layout_gravity="center"/>
+</LinearLayout>

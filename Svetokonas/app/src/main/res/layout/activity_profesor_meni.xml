@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profesor_meni"
+    android:orientation="horizontal"
+    android:background="@drawable/zelena1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:text="test"
+            android:visibility="invisible"
+            android:id="@+id/profa_test"
+            android:alpha="0.5"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="dodaj test"
+            android:visibility="invisible"
+            android:id="@+id/profa_dodaj_test"
+            android:alpha="0.5"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:visibility="invisible"
+            android:text="Igrica"
+            android:id="@+id/profa_igrica"
+            android:alpha="0.5"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:visibility="invisible"
+            android:layout_marginLeft="10dp"
+            android:text="lekcije"
+            android:id="@+id/profa_lekcije"
+            android:alpha="0.5"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:visibility="invisible"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="dodaj lekciju"
+            android:id="@+id/profa_dodaj_lekciju"
+            android:alpha="0.5"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:visibility="invisible"
+            android:layout_marginLeft="10dp"
+            android:text="azuriraj lekciju"
+            android:id="@+id/profa_azuriraj_lekciju"
+            android:alpha="0.5"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:visibility="invisible"
+            android:text="profil"
+            android:id="@+id/profa_profil"
+            android:alpha="0.5"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:visibility="invisible"
+            android:layout_marginTop="20dp"
+            android:text="obrisi test"
+            android:id="@+id/profa_obrisi_test"
+            android:alpha="0.5"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:visibility="invisible"
+            android:layout_marginLeft="10dp"
+            android:text="obrisi lekciju"
+            android:id="@+id/profa_obrisi_lekciju"
+            android:alpha="0.5"
+            />
+    </LinearLayout>
+</LinearLayout>
